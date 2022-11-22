@@ -17,7 +17,7 @@ import Animated, {
   withSpring,
   withTiming,
 } from 'react-native-reanimated';
-import { Path, Svg } from 'react-native-svg';
+import { Path, Svg, Defs, LinearGradient, Stop } from 'react-native-svg';
 
 import ChartContext, {
   useGenerateValues as generateValues,
