@@ -754,11 +754,7 @@ export function SvgComponent() {
               y2="120%"
             >
               <Stop stopColor={props.gradientTop} />
-              <Stop
-                offset="100%"
-                stopColor={props.gradientBottom}
-                stopOpacity={0}
-              />
+              <Stop offset="100%" stopColor={props.gradientBottom} />
             </LinearGradient>
           </Defs>
           <AnimatedPath
