@@ -753,8 +753,12 @@ export function SvgComponent() {
               x2="100%"
               y2="120%"
             >
-              <Stop stopColor={props.stroke} />
-              <Stop offset="100%" stopColor={'#FFFFFF'} stopOpacity={0} />
+              <Stop stopColor={props.gradientTop} />
+              <Stop
+                offset="100%"
+                stopColor={props.gradientBottom}
+                stopOpacity={0}
+              />
             </LinearGradient>
           </Defs>
           <AnimatedPath
